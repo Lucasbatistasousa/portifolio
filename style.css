@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Genos", serif;
+}
+
+body{
+    background-color: #000000;
+    color: white;
+    padding: 50px;
+}
+
+h1{
+    font-family: "Audiowide", serif;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+    border: solid 2px gray;
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    height: 150px; 
+}
+
+#fotoLucas{
+    width: 300px;
+    border: solid 2px orange;
+    box-shadow: 1px 1px 3px orange;
+    margin-left: 50px;
+}
+
+strong{
+    color: orange;
+    font-family: "Audiowide", serif;
+}
+
+.link-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 840px;
+}
+
+.conteudo{
+    display: flex;
+}
+
+main{
+    max-width: 850px;
+    margin: auto;
+}
