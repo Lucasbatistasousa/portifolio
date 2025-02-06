@@ -17,6 +17,17 @@ h1{
     margin-bottom: 15px;
 }
 
+h2 {
+    color: #ffffff;
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 25px;
+    margin-top: 20px;
+    color: orange;
+}
+
 p{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -26,8 +37,7 @@ p{
 
 a{
     text-decoration: none;
-    border: solid 2px gray;
-    background-color: orange;
+    background-color: rgb(235, 152, 0);
     color: white;
     padding: 5px;
     display: flex;
@@ -36,8 +46,17 @@ a{
     height: 30px;
     border-radius: 40px;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 600;
     margin: 10px;
+    text-shadow: 1px 1px 1px black;
+}
+
+a:hover {
+    background-color: darkcyan;
+}
+
+a:active {
+    opacity: 0.6;
 }
 
 .links{
@@ -72,4 +91,65 @@ strong{
 main{
     max-width: 850px;
     margin: auto;
+}
+
+.projetos {
+    width: 200px;
+}
+
+
+@media screen and (max-width: 875px){
+    body {
+        padding: 0;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .conteudo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    p {
+        width: 90%;
+        font-size: 20px;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .link-texto {
+        width: 90%;
+    }
+
+    .link-texto {
+        align-items: center;
+    }
+
+    a {
+        width: 80px;
+        height: 20px;
+        font-size: 16px;
+    }
+
+    #fotoLucas {
+        margin: 0 auto;
+    }
+
+    .links {
+        height: 80px;
+    }
+
+    .projetos {
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+    }
 }
