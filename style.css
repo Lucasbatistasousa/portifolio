@@ -90,11 +90,11 @@ h1{
 
 h2 {
     color: #ffffff;
-    font-size: 35px;
+    font-size: 45px;
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 35px;
     margin-top: 20px;
     color: orange;
 }
@@ -117,7 +117,7 @@ p{
 
 a{
     text-decoration: none;
-    background-color: #FFA500;
+    background-color: #008B8B;
     color: white;
     padding: 5px;
     display: flex;
@@ -132,7 +132,7 @@ a{
 }
 
 a:hover {
-    background-color: darkcyan;
+    background-color: #e09200;
 }
 
 a:active {
@@ -181,11 +181,16 @@ strong{
 
 main{
     max-width: 850px;
-    margin: 100px auto;
+    margin: 10px auto;
 }
 
 .projetos {
     width: 200px;
+    margin: 0 auto;
+}
+
+.links-projetos {
+    margin: 0 auto;
 }
 
 .img-projetos {
@@ -198,10 +203,45 @@ main{
 footer {
     background-color: #e09200;
     display: flex;
+    justify-content: space-around;
+    padding: 15px;
 }
 
-.link-footer {
+footer p {
+    font-size: 16px;
+}
 
+footer a {
+    background-color: #e09200;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+.redes-sociais {
+    display: flex;
+    align-items: center;
+}
+
+.button-service {
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #008B8B;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.button-service:hover {
+    background-color: #e09200;
+}
+
+.button-center {
+    text-align: center;
+    padding: 20px;
 }
 
 
@@ -210,19 +250,38 @@ footer {
         padding: 0;
     }
 
+   .div-header {
+        display: none;
+    }
+
     main {
         display: flex;
         flex-direction: column;
         width: 90%;
     }
 
-    .conteudo {
+    .sobre {
         flex-direction: column;
         align-items: center;
     }
 
     h1 {
         font-size: 35px;
+        width: 80%;
+    }
+
+    .call-to-action-home {
+        height: 35vh;
+    }
+
+    h2 {
+        font-size: 40px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 30px;
     }
 
     p {
@@ -254,9 +313,18 @@ footer {
         height: 80px;
     }
 
+    .depoimentos {
+        flex-direction: column;
+    }
+
     .projetos {
         display: block;
         margin: 10px auto;
         text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 30px;
     }
 }
