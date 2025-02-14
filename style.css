@@ -268,10 +268,15 @@ h4 {
     h1 {
         font-size: 35px;
         width: 80%;
+        padding: 25px;
     }
 
     .call-to-action-home {
         height: 35vh;
+    }
+
+    .services {
+        flex-direction: column;
     }
 
     h2 {
