@@ -268,11 +268,12 @@ h4 {
     h1 {
         font-size: 35px;
         width: 80%;
-        padding: 25px;
+        padding: 20px;
+        text-align: center;
     }
 
     .call-to-action-home {
-        height: 35vh;
+        height: 40vh;
     }
 
     .services {
