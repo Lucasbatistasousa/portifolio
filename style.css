@@ -149,7 +149,7 @@ a:active {
 }
 
 #fotoLucas{
-    width: 300px;
+    width: 350px;
     border: solid 2px orange;
     box-shadow: 1px 1px 3px orange;
     margin-left: 50px;
@@ -180,7 +180,8 @@ strong{
 }
 
 .tecnologias {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     align-items: center;
     justify-content: center;
@@ -234,6 +235,7 @@ main{
     margin: 10px auto;
     justify-content: center;
     box-shadow: 1px 1px 15px #e09200;
+    border-radius: 10px;
 }
 
 footer {
@@ -328,9 +330,11 @@ h4 {
     h1 {
         font-size: 35px;
         width: 80%;
+        height: 100%;
         padding: 20px;
         margin-left: auto;
         margin-right: auto;
+        text-align: center;
     }
 
     .call-to-action-home {
@@ -349,6 +353,7 @@ h4 {
 
     h3 {
         font-size: 30px;
+        text-align: center;
     }
 
     p {
