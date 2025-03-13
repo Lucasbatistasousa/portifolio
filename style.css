@@ -11,8 +11,8 @@ body{
 
 header {
     display: flex;
-    border-bottom: solid 1px #ffffff;
-    padding-top: 10px;
+    padding-top: 10px 30px;
+    justify-content: space-around;
 }
 
 .logo {
@@ -20,38 +20,39 @@ header {
 }
 /*PERSONALIZAÇÃO DOS LINKS DO CABEÇALHO*/
 .link-header {
-    display: inline-block;
+    display: flex;
     font-size: 20px;
     text-align: center;
-    width: 150px;
-    padding: 0;
+    width: 100%;
+    padding: 5px 15px;
     background-color: #242424;
-    color: #FFA500;
+    color: #e09200;
 }
 /*PERSONALIZAÇÃO DOS LINKS DO CABEÇALHO*/
 .link-header:hover {
-    background-color: #242424;
-    color: #008B8B;
+    background-color: #e09200;
+    color: #ffffff;
+    transition: 0.3s;
 }
 
 .div-header {
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 .div-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: auto;
-    margin-right: 40px;
 }
 
 .button-header {
     padding: 8px;
     font-size: 16px;
     border: none;
-    border-radius: 40px;
+    border-radius: 20px;
     background-color: #008B8B;
     color: #ffffff;
     cursor: pointer;
@@ -103,36 +104,38 @@ p{
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 25px;
-    text-align: justify;
+    text-align: left;
 }
 
 .services {
     display: flex;
     justify-content: space-around;
+    gap: 30px;
 }
 
 .services-s-lp {
-    width: 350px;
+    width: 100%;
 }
 
 a{
     text-decoration: none;
     background-color: #008B8B;
     color: white;
-    padding: 5px;
+    padding: 5px 10px;
     display: flex;
     justify-content: center;
     width: 100px;
     height: 30px;
-    border-radius: 40px;
+    border-radius: 20px;
     font-size: 20px;
     font-weight: 600;
     margin: 10px;
-    text-shadow: 1px 1px 1px black;
 }
 
 a:hover {
     background-color: #e09200;
+    transition: 0.3s;
+    transform: scale(1.05);
 }
 
 a:active {
@@ -168,6 +171,25 @@ strong{
     display: flex;
     background-color: #e09200;
     justify-content: center;
+    padding: 30px 40px;
+}
+
+.titulo-tec {
+    color: #242424;
+    margin-bottom: 20px;
+}
+
+.tecnologias {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tecnologias-criacao:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+    overflow: hidden;
 }
 
 .depoimentos {
@@ -180,8 +202,21 @@ strong{
 }
 
 main{
-    max-width: 850px;
+    max-width: 1400px;
     margin: 10px auto;
+}
+
+.grid-projetos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.div-projeto:hover {
+    overflow: hidden;
+    transform: scale(1.03);
+    transition: 0.3s;
 }
 
 .projetos {
@@ -198,6 +233,7 @@ main{
     display: block;
     margin: 10px auto;
     justify-content: center;
+    box-shadow: 1px 1px 15px #e09200;
 }
 
 footer {
@@ -224,8 +260,24 @@ h4 {
     align-items: center;
 }
 
+#instagram {
+    background: linear-gradient(to right, #515bd4, #8134af, #dd2a7b);
+}
+
+#github {
+    background-color: #242424;
+}
+
+#linkedin {
+    background-color: #0077b5;
+}
+
+#whatsapp {
+    background-color: #00bb2d;
+}
+
 .button-service {
-    padding: 8px;
+    padding: 8px 30px;
     border: none;
     border-radius: 30px;
     font-weight: 600;
@@ -304,6 +356,7 @@ h4 {
         font-size: 20px;
         display: block;
         margin: 10px auto;
+        text-align: center;
     }
 
     .link-texto {
@@ -321,7 +374,8 @@ h4 {
     }
 
     #fotoLucas {
-        margin: 0 auto;
+        margin: 10px auto;
+
     }
 
     .links {
@@ -336,6 +390,10 @@ h4 {
         display: block;
         margin: 10px auto;
         text-align: center;
+    }
+
+    .grid-projetos {
+        grid-template-columns: 1fr;
     }
 
     footer {
