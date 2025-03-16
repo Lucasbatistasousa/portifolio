@@ -27,11 +27,11 @@
         
         <nav class="div-header" id="topo">
             <button id="fechar-menu">&#10005;</button>
-            <a class="link-header" href="#topo">HOME</a>
-            <a class="link-header" href="#serviços">SERVIÇOS</a>
-            <a class="link-header" href="#">SOBRE</a>
-            <a class="link-header" href="#">DEPOIMENTOS</a>
-            <a class="link-header" href="#">PORTFÓLIO</a>
+            <a class="link-header" id="home" href="#topo">HOME</a>
+            <a class="link-header" id="serv" href="#serviços">SERVIÇOS</a>
+            <a class="link-header" id="about" href="#sobre-mim">SOBRE</a>
+            <a class="link-header" id="depoim" href="#depoimento-clientes">DEPOIMENTOS</a>
+            <a class="link-header" id="port" href="#portfolio">PORTFÓLIO</a>
         </nav>
 
         <div class="div-button">
@@ -40,6 +40,9 @@
     </header>
     <!--Edição do header-->
     <div class="mascara"></div>
+    <div class="caixa-video">
+        <video src="video/videodefundo.mp4" autoplay muted loop></video>
+    </div>
     <!--CALL TO ACTION-->
     <section class="call-to-action-home">
         <h1>Leve o seu negócio a outro nível <strong>com um site de alta performance!</strong></h1>
@@ -49,8 +52,8 @@
     <!--CONTEÚDO PRINCIPAL-->
     <main>
 
-        <h2>Conheça nossos serviços</h2>
-        <section class="services" id="serviços">
+        <h2 id="serviços">Conheça nossos serviços</h2>
+        <section class="services">
             <div class="services-s-lp">
                 <h3>Criação de Sites Institucionais</h3>
                 <p>Um site institucional é uma vitrine digital da sua empresa. Ele apresenta informações essenciais sobre o seu negócio, como serviços, missão, valores e formas de contato, transmitindo excepcional e profissionalismo para clientes e parceiros. Além de fortalecer sua presença online, um site bem estruturado melhora a visibilidade de sua marca, ajudando a atrair novos clientes e gerar mais oportunidades de negócio. Quer um site institucional moderno e eficiente para sua empresa? Fale comigo!</p>
@@ -64,11 +67,11 @@
         
 
         <div class="button-center">
-            <a class="button-service" href="https://wa.me/+5534993370334">ENTRE EM CONTATO</a>
+            <a class="button-service" href="https://wa.me/+5534993370334">ENTRAR EM CONTATO</a>
         </div>
     </main>
         
-        <div class="sobre">
+        <div class="sobre" id="sobre-mim">
             <div class="link-texto">
             <h2>Sobre mim</h2>
             <p>Olá! Sou Lucas Batista, desenvolvedor Front-end em transição de carreira, tenho sólidos conhecimentos em HTML, CSS e JavaScript. Minha motivação para essa mudança surgiu do desejo de criar soluções inovadoras e impactar positivamente o mundo digital e contribuir para o sucesso de equipes e projetos no setor de desenvolvimento web.</p>
@@ -88,8 +91,8 @@
         </div>
 
     <main>    
-        <h2>Depoimentos</h2>
-        <section class="depoimentos">
+        <h2 id="depoimento-clientes">Depoimentos</h2>
+        <section class="depoimentos" >
             <div class="client-depoiment">
                 <h3>Luis Carlos | Guincho Pesado Rápidão</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum at porro voluptates, repudiandae reprehenderit incidunt iusto ratione unde velit tempora.</p>
@@ -105,7 +108,7 @@
             <a class="button-service" href="https://wa.me/+5534993370334">ENTRE EM CONTATO</a>
         </div>
 
-        <section class="portifolio">
+        <section class="portifolio" id="portfolio">
             <h2>Portifólio</h2>
             
             <div class="grid-projetos">
