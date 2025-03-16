@@ -35,6 +35,14 @@ header {
     transition: 0.3s;
 }
 
+#menu-button {
+    display: none;
+}
+
+#fechar-menu {
+    display: none;
+}
+
 .div-header {
     display: flex;
     align-items: center;
@@ -306,6 +314,17 @@ h4 {
     padding: 20px;
 }
 
+.mascara {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    transition: visibility 0.1s ease-in-out;
+    z-index: 0;
+}
+
 
 @media screen and (max-width: 875px){
     body {
@@ -314,6 +333,47 @@ h4 {
 
    .div-header {
         display: none;
+        flex-direction: column;
+        position:absolute;
+        top: 0;
+        left:0;
+        background-color: #242424;
+        padding: 50px;
+        height: 100%;
+        gap: 10px;
+        justify-content: flex-start;
+        z-index: 1;
+    }
+
+    #menu-button {
+        display: block;
+        width: 50px;
+        background-color: #242424;
+        border: none;
+        font-size: 30px;
+        color: #e09200;
+    }
+
+    #fechar-menu {
+        position:absolute;
+        top: 8px;
+        left:0;
+        width: 50px;
+        background-color: #242424;
+        border: none;
+        font-size: 30px;
+        color: #e09200;
+    }
+
+    .link-header {
+        margin: 0;
+        padding: 5px;
+        font-size: 18px;
+    }
+
+    .button-header {
+        font-size: 14px;
+        padding: 5px;
     }
 
     main {
@@ -380,7 +440,7 @@ h4 {
 
     #fotoLucas {
         margin: 10px auto;
-
+        width: 90%;
     }
 
     .links {
