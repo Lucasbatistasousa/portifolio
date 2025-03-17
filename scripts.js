@@ -3,6 +3,7 @@ const menu = document.querySelector('.div-header')
 const fecharMenu = document.querySelector('#fechar-menu')
 const fecharMenuMascara = document.querySelector('.mascara')
 const fecharMenuLink = document.querySelectorAll('.link-header')
+const setaParaOTopo = document.querySelector('.seta-para-topo')
 
 
 menuButton.addEventListener('click', function () {
@@ -41,4 +42,16 @@ document.querySelectorAll('.link-header').forEach(menulinks => {
             fecharMenuMascara.style.visibility = 'hidden'
         }
     })
+})
+
+window.addEventListener('scroll', function() {
+    if (window.scrollY > 200) {
+        setaParaOTopo.style.display = 'block'
+    } else {
+        setaParaOTopo.style.display = 'none'
+    }
+})
+
+setaParaOTopo.addEventListener('click', function() {
+    window.scrollTo({top: 0, behavior: 'smooth'})
 })

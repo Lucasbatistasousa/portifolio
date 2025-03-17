@@ -329,6 +329,24 @@ h4 {
     z-index: 0;
 }
 
+.seta-para-topo {
+    background-color: transparent;
+    height: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 30px;
+    display: none;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px #242424;
+    background-color: #e09200;
+}
+
+.seta-para-topo:active {
+    background: none;
+    background-color: transparent;
+}
+
 .caixa-video {
     position: fixed;
     z-index: -1;
@@ -345,6 +363,15 @@ video {
 @media screen and (max-width: 875px){
     body {
         padding: 0;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .logo {
+        grid-column: 2;
     }
 
    .div-header {
@@ -368,6 +395,9 @@ video {
         border: none;
         font-size: 30px;
         color: #e09200;
+        margin: 0 auto;
+        grid-column: 1;
+        grid-row: 1;
     }
 
     #fechar-menu {
