@@ -342,11 +342,6 @@ h4 {
     background-color: #e09200;
 }
 
-.seta-para-topo:active {
-    background: none;
-    background-color: transparent;
-}
-
 .caixa-video {
     position: fixed;
     z-index: -1;
