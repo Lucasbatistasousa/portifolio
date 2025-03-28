@@ -13,6 +13,23 @@
         gtag('config', 'AW-16958020384');
     </script>
 
+    <!-- Event snippet for Contato conversion page-->
+<script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-16958020384/nAgfCNbDyrAaEKC2m5Y_',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
+    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
