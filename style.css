@@ -375,6 +375,10 @@ video {
         flex-direction: row-reverse;
     }
 
+    .logo {
+        width: 90px;
+    }
+
    .div-header {
         display: none;
         flex-direction: column;
@@ -397,6 +401,7 @@ video {
         display: flex;
         align-items: center;
         justify-content: center;
+
     }
 
     #menu-button {
@@ -444,7 +449,7 @@ video {
     h1 {
         font-size: 32px;
         width: 80%;
-        height: 60%;
+        height: 50%;
         padding: 20px;
         margin-left: auto;
         margin-right: auto;
