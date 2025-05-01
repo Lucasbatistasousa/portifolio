@@ -20,16 +20,10 @@ Este é um projeto de site pessoal com foco em **captação de clientes**. O lay
 
 ## 📸 Imagens do Site
 
-### 💻 Versão Desktop
-
 <p align="center">
   <img src="./assets/imagemsite.png" alt="Página inicial desktop" width="80%" />
 </p>
 
-### 📱 Versão Mobile
 
-<p align="center">
-  <img src="./assets/imagemsitemobile.png" alt="Página inicial mobile" width="40%" />
-</p>
 
 
