@@ -46,9 +46,9 @@ document.querySelectorAll('.link-header').forEach(menulinks => {
 
 window.addEventListener('scroll', function() {
     if (window.scrollY > 200) {
-        setaParaOTopo.style.display = 'block'
+        setaParaOTopo.classList.add('visivel');
     } else {
-        setaParaOTopo.style.display = 'none'
+        setaParaOTopo.classList.remove('visivel');
     }
 })
 

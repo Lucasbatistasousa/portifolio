@@ -6,6 +6,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body{
@@ -31,6 +32,7 @@ header {
     padding: 5px 15px;
     background-color: transparent;
     color: #e09200;
+    align-items: center;
 }
 /*PERSONALIZAÇÃO DOS LINKS DO CABEÇALHO*/
 .link-header:hover {
@@ -60,10 +62,6 @@ header {
     justify-content: center;
 }
 
-.div-button-mobile{
-    display: none;
-}
-
 .button-header {
     padding: 8px;
     font-size: 16px;
@@ -88,6 +86,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background: linear-gradient(to ritgh, #242424);
+    text-align: center;
 }
 
 .button-cta {
@@ -95,14 +94,21 @@ header {
     color: #ffffff;
 }
 
+.div-h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
 h1{
     font-family: "Audiowide", serif;
     font-size: 50px;
     text-align: center;
-    margin-bottom: 15px;
-    text-align: left;
     width: 40vw;
     padding: 40px;
+    text-align: center;
 }
 
 h2 {
@@ -347,12 +353,19 @@ h4 {
     position: fixed;
     right: 10px;
     bottom: 30px;
-    display: none;
+    opacity: 0;
+    pointer-events: none;
     border: none;
     border-radius: 50%;
     box-shadow: 1px 1px 10px #242424;
     background-color: #e09200;
+    z-index: 9999;
 }
+
+.seta-para-topo.visivel {
+    opacity: 1;
+    pointer-events: auto;
+  }
 
 .caixa-video {
     position: fixed;
@@ -368,8 +381,16 @@ video {
 }
 
 @media screen and (max-width: 875px){
+    html {
+        overflow-x: hidden;
+    }
+
     body {
         padding: 0;
+    }
+
+    [data-aos] {
+        opacity: 0;
     }
 
     header {
