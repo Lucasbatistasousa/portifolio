@@ -10,6 +10,7 @@ html {
 }
 
 body{
+    overflow-x: hidden;
     background-color: #242424;
     color: white;
 }
@@ -133,6 +134,7 @@ p{
     display: flex;
     justify-content: space-around;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .services-s-lp {
@@ -387,6 +389,7 @@ video {
     }
 
     body {
+        overflow-x: hidden;
         padding: 0;
     }
 
