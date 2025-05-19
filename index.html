@@ -48,44 +48,40 @@
 <body>
 
     <!--Edição do header-->
-    <header>
-        <div class="div-logo">
-            <img class="logo" src="assets/lucasdevlogo.png" alt="logo-dev">
+    <div class="image-bg">
+        <header>
+            <div class="div-logo">
+                <img class="logo" src="assets/lucasdevlogo.png" alt="logo-dev">
+            </div>
+            <button id="menu-button">&#9776;</button>
+            <nav class="div-header" id="topo">
+                <button id="fechar-menu">&#10005;</button>
+                <a class="link-header" id="home" href="#topo">HOME</a>
+                <a class="link-header" id="serv" href="#serviços">SERVIÇOS</a>
+                <a class="link-header" id="about" href="#sobre-mim">SOBRE</a>
+                <a class="link-header" id="depoim" href="#depoimento-clientes">DEPOIMENTOS</a>
+                <a class="link-header" id="port" href="#portfolio">PORTFÓLIO</a>
+            </nav>
+            <div class="div-button">
+                <a class="button-header" href="https://wa.me/+5534993370334">ENTRE EM CONTATO</a>
+            </div>
+        </header>
+        <!--Edição do header-->
+        <!--Itens para JS-->
+        <div class="mascara"></div>
+        <div class="caixa-video">
+            <video src="video/videodefundo.mp4" autoplay muted loop></video>
         </div>
-
-        <button id="menu-button">&#9776;</button>
-
-        <nav class="div-header" id="topo">
-            <button id="fechar-menu">&#10005;</button>
-            <a class="link-header" id="home" href="#topo">HOME</a>
-            <a class="link-header" id="serv" href="#serviços">SERVIÇOS</a>
-            <a class="link-header" id="about" href="#sobre-mim">SOBRE</a>
-            <a class="link-header" id="depoim" href="#depoimento-clientes">DEPOIMENTOS</a>
-            <a class="link-header" id="port" href="#portfolio">PORTFÓLIO</a>
-        </nav>
-
-        <div class="div-button">
-            <a class="button-header" href="https://wa.me/+5534993370334">ENTRE EM CONTATO</a>
-        </div>
-    </header>
-    <!--Edição do header-->
-
-    <!--Itens para JS-->
-    <div class="mascara"></div>
-    <div class="caixa-video">
-        <video src="video/videodefundo.mp4" autoplay muted loop></video>
+        <button data-aos="fade-right" data-aos-delay="300" class="seta-para-topo"><img src="assets/setaptopo.png" alt="seta-para-topo"></button>
+        <!--Itens para JS-->
+        <!--CALL TO ACTION-->
+        <section class="call-to-action-home">
+            <div class="div-h1">
+                <h1>Leve o seu negócio a outro nível <strong>com um site de alta performance!</strong></h1>
+                <a class="button-header" href="https://wa.me/+5534993370334">ENTRE EM CONTATO</a>
+            </div>
+        </section>
     </div>
-    <button data-aos="fade-right" data-aos-delay="300" class="seta-para-topo"><img src="assets/setaptopo.png" alt="seta-para-topo"></button>
-    <!--Itens para JS-->
-
-
-    <!--CALL TO ACTION-->
-    <section class="call-to-action-home">
-        <div class="div-h1">
-            <h1>Leve o seu negócio a outro nível <strong>com um site de alta performance!</strong></h1>
-            <a class="button-header" href="https://wa.me/+5534993370334">ENTRE EM CONTATO</a>
-        </div>
-    </section>
     <!--CALL TO ACTION-->
 
     <!--CONTEÚDO PRINCIPAL-->
@@ -111,51 +107,6 @@
             </div>
 
         </section>
-
-
-        <div class="button-center" data-aos="fade-up" data-aos-delay="300">
-            <a class="button-service" href="https://wa.me/+5534993370334">ENTRAR EM CONTATO</a>
-        </div>
-    </main>
-
-    <div class="sobre" id="sobre-mim" data-aos="fade-up" data-aos-delay="300">
-        <div class="link-texto">
-            <h2>Sobre mim</h2>
-            <p>Olá! Sou Lucas Batista, desenvolvedor Front-end em transição de carreira, tenho sólidos conhecimentos em
-                HTML, CSS e JavaScript. Minha motivação para essa mudança surgiu do desejo de criar soluções inovadoras
-                e impactar positivamente o mundo digital e contribuir para o sucesso de equipes e projetos no setor de
-                desenvolvimento web.</p>
-
-            <h3 class="titulo-tec">Tecnologias para criação de sites</h3>
-            <div class="tecnologias">
-                <abbr title="HTML5"><img class="tecnologias-criacao" src="assets/html5.svg" alt="logo-html5"></abbr>
-                <abbr title="CSS3"><img class="tecnologias-criacao" src="assets/css3.svg" alt="logo-css3"></abbr>
-                <abbr title="JavaScript"><img class="tecnologias-criacao" src="assets/javascript.svg"
-                        alt="logo-javascript"></abbr>
-                <abbr title="React"><img class="tecnologias-criacao" src="assets/react.svg" alt="logo-react"></abbr>
-                <abbr title="WixStudio"><img class="tecnologias-criacao" src="assets/wix.svg" alt="logo-wix"></abbr>
-                <abbr title="Wordpress"><img class="tecnologias-criacao" src="assets/wordpress.svg"
-                        alt="logo-wordpress"></abbr>
-            </div>
-
-        </div>
-        <img src="assets/perfil.jpg" alt="Foto do Lucas" id="fotoLucas">
-    </div>
-
-    <main>
-        <h2 id="depoimento-clientes">Depoimentos</h2>
-        <section class="depoimentos" data-aos="fade-up">
-            <div class="client-depoiment">
-                <h3>Luis Carlos | Guincho Pesado Rápidão</h3>
-                <p>Site ficou perfeito páginas rápidas e muito fácil de uso abre muito rápido no celular e no desktop
-                    gera alta conversão em propagandas</p>
-            </div>
-
-        </section>
-
-        <div class="button-center" data-aos="fade-up" data-aos-delay="300">
-            <a class="button-service" href="https://wa.me/+5534993370334">ENTRE EM CONTATO</a>
-        </div>
 
         <section class="portifolio" id="portfolio" data-aos="fade-up" data-aos-delay="300">
             <h2>Portifólio</h2>
@@ -209,6 +160,53 @@
                 <a class="button-service" href="https://wa.me/+5534993370334">ENTRE EM CONTATO</a>
             </div>
         </section>
+
+
+        <div class="button-center" data-aos="fade-up" data-aos-delay="300">
+            <a class="button-service" href="https://wa.me/+5534993370334">ENTRAR EM CONTATO</a>
+        </div>
+    </main>
+
+    <div class="sobre" id="sobre-mim" data-aos="fade-up" data-aos-delay="300">
+        <div class="link-texto">
+            <h2>Sobre mim</h2>
+            <p>Olá! Sou Lucas Batista, desenvolvedor Front-end em transição de carreira, tenho sólidos conhecimentos em
+                HTML, CSS e JavaScript. Minha motivação para essa mudança surgiu do desejo de criar soluções inovadoras
+                e impactar positivamente o mundo digital e contribuir para o sucesso de equipes e projetos no setor de
+                desenvolvimento web.</p>
+
+            <h3 class="titulo-tec">Tecnologias para criação de sites</h3>
+            <div class="tecnologias">
+                <abbr title="HTML5"><img class="tecnologias-criacao" src="assets/html5.svg" alt="logo-html5"></abbr>
+                <abbr title="CSS3"><img class="tecnologias-criacao" src="assets/css3.svg" alt="logo-css3"></abbr>
+                <abbr title="JavaScript"><img class="tecnologias-criacao" src="assets/javascript.svg"
+                        alt="logo-javascript"></abbr>
+                <abbr title="React"><img class="tecnologias-criacao" src="assets/react.svg" alt="logo-react"></abbr>
+                <abbr title="WixStudio"><img class="tecnologias-criacao" src="assets/wix.svg" alt="logo-wix"></abbr>
+                <abbr title="Wordpress"><img class="tecnologias-criacao" src="assets/wordpress.svg"
+                        alt="logo-wordpress"></abbr>
+            </div>
+
+        </div>
+        <img src="assets/perfil.jpg" alt="Foto do Lucas" id="fotoLucas">
+    </div>
+
+    <main>
+        <h2 id="depoimento-clientes">Depoimentos</h2>
+        <section class="depoimentos" data-aos="fade-up">
+            <div class="client-depoiment">
+                <h3>Luis Carlos | Guincho Pesado Rápidão</h3>
+                <p>Site ficou perfeito páginas rápidas e muito fácil de uso abre muito rápido no celular e no desktop
+                    gera alta conversão em propagandas</p>
+            </div>
+
+        </section>
+
+        <div class="button-center" data-aos="fade-up" data-aos-delay="300">
+            <a class="button-service" href="https://wa.me/+5534993370334">ENTRE EM CONTATO</a>
+        </div>
+
+        
 
     </main>
     <!--CONTEÚDO PRINCIPAL-->

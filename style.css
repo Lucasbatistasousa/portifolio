@@ -80,15 +80,16 @@ header {
     color: #242424;
 }
 
-.call-to-action-home {
+.image-bg {
     background-image: url(assets/cta.jpg);
-    height: 50vh;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background: linear-gradient(to ritgh, #242424);
-    text-align: center;
 }
+
+
 
 .button-cta {
     background-color: #008B8B;
@@ -98,7 +99,6 @@ header {
 .div-h1 {
     display: flex;
     flex-direction: column;
-    text-align: center;
     align-items: center;
     justify-content: center;
 }
@@ -461,6 +461,7 @@ video {
     .button-header {
         font-size: 14px;
         padding: 8px;
+        margin-top: 10px;
     }
 
     main {
@@ -478,13 +479,18 @@ video {
         font-size: 28px;
         width: 80%;
         height: 50%;
-        padding: 20px;
+        padding: 10px;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
     }
 
-    .call-to-action-home {
+    .div-h1 {
+        height: 100%;
+        padding-top: 20px;
+    }
+
+    .image-bg {
         height: 45vh;
     }
 
