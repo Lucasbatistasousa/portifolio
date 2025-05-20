@@ -382,6 +382,71 @@ video {
     top: 0;
 }
 
+/*PÁGINA DE OBRIGADO*/
+
+.thankyou-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.thankyou-page a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 5px 40px;
+}
+
+.buttons-thankyou-page {
+    display: flex;
+}
+
+.buttons-thankyou-page a {
+    vertical-align: middle;
+}
+
+.div-thankyou-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #242424;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px #FFA500;
+}
+
+/*PÁGINA DE FORMULÁRIO*/
+
+.section-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+}
+
+.div-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #242424;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px #FFA500;
+}
+
 @media screen and (max-width: 875px){
     html {
         max-width: 100%;
