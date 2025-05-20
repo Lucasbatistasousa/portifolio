@@ -14,21 +14,21 @@
     </script>
 
     <!-- Event snippet for Contato conversion page-->
-<script>
-    function gtag_report_conversion(url) {
-      var callback = function () {
-        if (typeof(url) != 'undefined') {
-          window.location = url;
+    <script>
+        function gtag_report_conversion(url) {
+            var callback = function () {
+                if (typeof (url) != 'undefined') {
+                    window.location = url;
+                }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-16958020384/nAgfCNbDyrAaEKC2m5Y_',
+                'event_callback': callback
+            });
+            return false;
         }
-      };
-      gtag('event', 'conversion', {
-          'send_to': 'AW-16958020384/nAgfCNbDyrAaEKC2m5Y_',
-          'event_callback': callback
-      });
-      return false;
-    }
     </script>
-    
+
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,7 +48,7 @@
 <body>
 
     <!--Edição do header-->
-    <div class="image-bg">
+    <section class="image-bg">
         <header>
             <div class="div-logo">
                 <img class="logo" src="assets/lucasdevlogo.png" alt="logo-dev">
@@ -58,60 +58,98 @@
                 <button id="fechar-menu">&#10005;</button>
                 <a class="link-header" id="home" href="#topo">HOME</a>
                 <a class="link-header" id="serv" href="#serviços">SERVIÇOS</a>
+                <a class="link-header" id="port" href="#portfolio">PORTFÓLIO</a>
                 <a class="link-header" id="about" href="#sobre-mim">SOBRE</a>
                 <a class="link-header" id="depoim" href="#depoimento-clientes">DEPOIMENTOS</a>
-                <a class="link-header" id="port" href="#portfolio">PORTFÓLIO</a>
             </nav>
             <div class="div-button">
-                <a class="button-header" href="https://wa.me/+5534993370334">ENTRE EM CONTATO</a>
+                <a class="button-header" href="pagform.html">ENTRE EM CONTATO</a>
             </div>
         </header>
         <!--Edição do header-->
         <!--Itens para JS-->
         <div class="mascara"></div>
-        <div class="caixa-video">
-            <video src="video/videodefundo.mp4" autoplay muted loop></video>
-        </div>
-        <button data-aos="fade-right" data-aos-delay="300" class="seta-para-topo"><img src="assets/setaptopo.png" alt="seta-para-topo"></button>
+        <button data-aos="fade-right" data-aos-delay="300" class="seta-para-topo"><img src="assets/setaptopo.png"
+                alt="seta-para-topo"></button>
         <!--Itens para JS-->
         <!--CALL TO ACTION-->
-        <section class="call-to-action-home">
+        
             <div class="div-h1">
                 <h1>Leve o seu negócio a outro nível <strong>com um site de alta performance!</strong></h1>
-                <a class="button-header" href="https://wa.me/+5534993370334">ENTRE EM CONTATO</a>
+                <a class="button-header" href="pagform.html">ENTRE EM CONTATO</a>
             </div>
-        </section>
-    </div>
+        
+    </section>
     <!--CALL TO ACTION-->
 
     <!--CONTEÚDO PRINCIPAL-->
     <main>
 
-        <h2 id="serviços">Conheça nossos serviços</h2 >
+        <h2 id="serviços">Conheça nossos serviços</h2>
         <section class="services">
             <div class="services-s-lp">
-                <h3>Criação de Sites Institucionais</h3>
-                <p>Um site institucional é uma vitrine digital da sua empresa. Ele apresenta informações essenciais
-                    sobre o seu negócio, como serviços, missão, valores e formas de contato, transmitindo excepcional e
-                    profissionalismo para clientes e parceiros. Além de fortalecer sua presença online, um site bem
-                    estruturado melhora a visibilidade de sua marca, ajudando a atrair novos clientes e gerar mais
-                    oportunidades de negócio. Quer um site institucional moderno e eficiente para sua empresa? Fale
-                    comigo!</p>
+                <h3 class="servicos">Desenvolvimento de Sites Institucionais</h3>
+                <p>Principais vantagens de ter um Site Institucional para o seu negócio:</p>
+                <div class="ul-itens">
+                    <ul>
+                        <li>✅ Vitrine digital da sua loja</li>
+                        <li>✅ Informações essenciais da empresa</li>
+                        <li>✅ Transmite profissionalismo</li>
+                    </ul>
+                    <ul>
+                        <li>✅ Fortalace sua presença online</li>
+                        <li>✅ Melhora a visibilidade da sua marca</li>
+                        <li>✅ Gera mais oportunidades para o seu negócio</li>
+                    </ul>
+
+                </div>
+                
             </div>
             <div class="services-s-lp">
-                <h3>Criação de Landing Pages</h3>
-                <p>Uma Landing Page é uma página otimizada para conversão, projetada para capturar leads, promover
-                    ofertas ou vender um produto/serviço. Com um design estratégico e uma chamada para ação persuasiva,
-                    ela aumenta suas chances de atrair e conquistar clientes. Quer uma Landing Page eficiente para o seu
-                    negócio? Fale comigo!</p>
+                <h3 class="servicos">Desenvolvimento de Landing Pages:</h3>
+                <p>Principais vantagens de ter uma Landing Page para o seu negócio</p>
+                <div class="ul-itens">
+                    <ul>
+                        <li>✅ Otimizada para conversões de anúncios</li>
+                        <li>✅ Captura de leads</li>
+                        <li>✅ Vender um produto/serviço</li>
+                    </ul>
+                    <ul>
+                        <li>✅ Design estratégico</li>
+                        <li>✅ Chamada para ação persuasiva</li>
+                        <li>✅ Maiores possibilidades de atrair clientes</li>
+                    </ul>
+                </div>
             </div>
-
+            <div class="button-center">
+                    <a class="button-service" href="pagform.html">ENTRE EM CONTATO</a>
+                </div>
         </section>
+    </main>
 
-        <section class="portifolio" id="portfolio" data-aos="fade-up" data-aos-delay="300">
+    <div class="faixa-laranja">
+
+        <h3 class="titulo-tec">Tecnologias usadas no desenvolvimento de sites</h3>
+        <div class="tecnologias">
+            <abbr title="HTML5"><img class="tecnologias-criacao" src="assets/html5.svg" alt="logo-html5"></abbr>
+            <abbr title="CSS3"><img class="tecnologias-criacao" src="assets/css3.svg" alt="logo-css3"></abbr>
+            <abbr title="JavaScript"><img class="tecnologias-criacao" src="assets/javascript.svg"
+                    alt="logo-javascript"></abbr>
+            <abbr title="React"><img class="tecnologias-criacao" src="assets/react.svg" alt="logo-react"></abbr>
+            <abbr title="WixStudio"><img class="tecnologias-criacao" src="assets/wix.svg" alt="logo-wix"></abbr>
+            <abbr title="Wordpress"><img class="tecnologias-criacao" src="assets/wordpress.svg"
+                    alt="logo-wordpress"></abbr>
+        </div>
+
+    </div>
+
+    <main>
+
+
+        <section class="portifolio" id="portfolio" data-aos="fade-up" data-aos-delay="100">
             <h2>Portifólio</h2>
 
-            <div class="grid-projetos" data-aos="fade-up" data-aos-delay="300">
+            <div class="grid-projetos" data-aos="fade-up" data-aos-delay="100">
                 <div class="div-projeto">
                     <h3>Projeto Starbucks</h3>
                     <img class="img-projetos" src="assets/imagemcafe1.png" alt="Starbucks">
@@ -157,38 +195,27 @@
             </div>
 
             <div class="button-center">
-                <a class="button-service" href="https://wa.me/+5534993370334">ENTRE EM CONTATO</a>
+                <a class="button-service" href="pagform.html">ENTRE EM CONTATO</a>
             </div>
         </section>
 
-
-        <div class="button-center" data-aos="fade-up" data-aos-delay="300">
-            <a class="button-service" href="https://wa.me/+5534993370334">ENTRAR EM CONTATO</a>
-        </div>
     </main>
 
-    <div class="sobre" id="sobre-mim" data-aos="fade-up" data-aos-delay="300">
+    <div class="sobre" id="sobre-mim" data-aos="fade-up" data-aos-delay="100">
         <div class="link-texto">
-            <h2>Sobre mim</h2>
-            <p>Olá! Sou Lucas Batista, desenvolvedor Front-end em transição de carreira, tenho sólidos conhecimentos em
-                HTML, CSS e JavaScript. Minha motivação para essa mudança surgiu do desejo de criar soluções inovadoras
-                e impactar positivamente o mundo digital e contribuir para o sucesso de equipes e projetos no setor de
-                desenvolvimento web.</p>
+            <h2>Sobre nós</h2>
+            <p>Somos uma empresa especializada em desenvolvimento Front-end. Nascemos da vontade de transformar ideias
+                em soluções digitais impactantes — que façam a
+                diferença na vida das pessoas e no crescimento dos negócios.</p>
 
-            <h3 class="titulo-tec">Tecnologias para criação de sites</h3>
-            <div class="tecnologias">
-                <abbr title="HTML5"><img class="tecnologias-criacao" src="assets/html5.svg" alt="logo-html5"></abbr>
-                <abbr title="CSS3"><img class="tecnologias-criacao" src="assets/css3.svg" alt="logo-css3"></abbr>
-                <abbr title="JavaScript"><img class="tecnologias-criacao" src="assets/javascript.svg"
-                        alt="logo-javascript"></abbr>
-                <abbr title="React"><img class="tecnologias-criacao" src="assets/react.svg" alt="logo-react"></abbr>
-                <abbr title="WixStudio"><img class="tecnologias-criacao" src="assets/wix.svg" alt="logo-wix"></abbr>
-                <abbr title="Wordpress"><img class="tecnologias-criacao" src="assets/wordpress.svg"
-                        alt="logo-wordpress"></abbr>
-            </div>
+            <p>Nosso objetivo é criar interfaces modernas, rápidas e acessíveis, sempre alinhadas com as necessidades
+                reais de cada cliente. Acreditamos que um bom site vai além da aparência: ele precisa funcionar bem,
+                comunicar com clareza e gerar resultados.</p>
+
+            <p>Estamos em constante evolução, testando e aprimorando tudo o que fazemos. Nosso compromisso é
+                com a qualidade, a inovação e o sucesso dos projetos que entregamos.</p>
 
         </div>
-        <img src="assets/perfil.jpg" alt="Foto do Lucas" id="fotoLucas">
     </div>
 
     <main>
@@ -196,17 +223,17 @@
         <section class="depoimentos" data-aos="fade-up">
             <div class="client-depoiment">
                 <h3>Luis Carlos | Guincho Pesado Rápidão</h3>
-                <p>Site ficou perfeito páginas rápidas e muito fácil de uso abre muito rápido no celular e no desktop
+                <p>Site ficou perfeito, páginas rápidas e muito fácil o uso, abre muito rápido no celular e no desktop
                     gera alta conversão em propagandas</p>
             </div>
 
         </section>
 
-        <div class="button-center" data-aos="fade-up" data-aos-delay="300">
-            <a class="button-service" href="https://wa.me/+5534993370334">ENTRE EM CONTATO</a>
+        <div class="button-center" data-aos="fade-up" data-aos-delay="100">
+            <a class="button-service" href="pagform.html">ENTRE EM CONTATO</a>
         </div>
 
-        
+
 
     </main>
     <!--CONTEÚDO PRINCIPAL-->
@@ -214,7 +241,7 @@
     <footer>
         <div class="fale-conosco" data-aos="fade-right" data-aos-delay="200">
             <h4>Fale conosco:</h4>
-            <p>Email: lucasbatistasousa2002@gmail.com</p>
+            <p>Email: lucasdev.desenvolvedorweb@gmail.com</p>
             <p>Copyright &#169 2025 | Lucas Dev - Front-end Developer</p>
         </div>
 
@@ -236,5 +263,6 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
-  </script>
+</script>
+
 </html>

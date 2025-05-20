@@ -5,25 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
     <title>Formulário de Cadastro</title>
 </head>
 <body>
     <section class="section-formulario">
         <div class="div-formulario">
-            <form action="https://formsubmit.com/lucasdev.desenvolvedorweb@gmail.com" method="POST">
+
+            <h1>Formulário de Cadastro</h1>
+
+            <form action="https://formsubmit.co/lucasdev.desenvolvedorweb@gmail.com" method="POST">
                 <input type="text" name="Nome Completo" placeholder="Nome Completo" required>
                 <input type="tel" name="Telefone" placeholder="Telefone" required>
                 <input type="email" name="Email" placeholder="Email" required>
                 <input type="text" name="Empresa" placeholder="Nome da Empresa/Negócio">
-                <button>Enviar Cadastro</button>
+
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://lucasdesenvolvedorweb.com/obrigado.html">
+
+                <button type="submit" class="form-button">Enviar Cadastro</button>
             </form>
         </div>
     </section>
 
     <footer>
-        <div class="fale-conosco" data-aos="fade-right" data-aos-delay="200">
+        <div class="fale-conosco">
             <h4>Fale conosco:</h4>
-            <p>Email: lucasbatistasousa2002@gmail.com</p>
+            <p>Email: lucasdev.desenvolvedorweb@gmail.com</p>
             <p>Copyright &#169 2025 | Lucas Dev - Front-end Developer</p>
         </div>
 
