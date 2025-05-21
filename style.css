@@ -160,6 +160,10 @@ li {
     list-style: none;
     font-size: 24px;
     margin: 10px 0;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .faixa-laranja {
@@ -324,19 +328,23 @@ h4 {
 }
 
 #instagram {
-    background: linear-gradient(to right, #515bd4, #8134af, #dd2a7b);
+    padding: 5px;
+    margin: 0;
 }
 
 #github {
-    background-color: #242424;
+    padding: 5px;
+    margin: 0;
 }
 
 #linkedin {
-    background-color: #0077b5;
+    padding: 5px;
+    margin: 0;
 }
 
 #whatsapp {
-    background-color: #00bb2d;
+    padding: 5px;
+    margin: 0;
 }
 
 .button-service {
