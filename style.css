@@ -515,6 +515,14 @@ input:focus {
     box-shadow: 1px 1px 10px #FFA500;
 }
 
+#whatsapp-button {
+    background-color: #00bb2d;
+}
+
+#tel-button {
+    background-color: #FE2712;
+}
+
 @media screen and (max-width: 875px){
     html {
         max-width: 100%;
