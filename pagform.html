@@ -21,10 +21,29 @@
             <h1 id="titulo-form">Agende seu atendimento gratuito</h1>
 
             <form action="https://formsubmit.co/lucasdev.desenvolvedorweb@gmail.com" method="POST">
-                <input type="text" name="Nome Completo" placeholder="Nome Completo" required>
-                <input type="tel" name="Telefone" placeholder="Telefone" required>
-                <input type="email" name="Email" placeholder="Email" required>
-                <input type="text" name="Empresa" placeholder="Nome da Empresa/Negócio">
+                <label> Nome:
+                    <input type="text" name="Nome Completo" placeholder="Ex: João Silva" required>
+                </label>
+                <label> Telefone:
+                    <input type="tel" name="Telefone" placeholder="(DDD) 9XXXX-XXXX" required>
+                </label>
+                <label> Email:
+                    <input type="email" name="Email" placeholder="nome@gmail.com" required>
+                </label>
+                <label> Nome da Empresa:
+                    <input type="text" name="Empresa" placeholder="Nome da Empresa/Negócio">
+                </label>
+                <label class="atendimento">
+                    Deseja a visita de um de nossos especialistas? (Somente para empresas em Uberlândia)
+                    <label class="escolhas">
+                        <label class="escolhas-check">
+                            <input class="check" name="escolha" type="radio"> Quero uma visita
+                        </label>
+                         <label class="escolhas-check">
+                            <input class="check" name="escolha" type="radio"> Prefiro Atendimento Online
+                        </label>
+                    </label>
+                </label>
 
                 <input type="hidden" name="_captcha" value="false">
                 <input type="hidden" name="_next" value="https://lucasdesenvolvedorweb.com/obrigado.html">
