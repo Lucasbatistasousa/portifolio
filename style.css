@@ -463,10 +463,11 @@ video {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 85vh;
+    height: 95vh;
 }
 
 form {
+    height: 90%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -478,7 +479,7 @@ form {
 }
 
 input {
-    padding: 10px;
+    padding: 8px;
     font-size: 20px;
     font-weight: 400;
     color: #000000;
@@ -505,6 +506,7 @@ input:focus {
 }
 
 .div-formulario {
+    height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -512,7 +514,6 @@ input:focus {
     padding: 20px;
     background-color: #242424;
     border-radius: 30px;
-    box-shadow: 1px 1px 10px #FFA500;
 }
 
 label {
@@ -780,7 +781,7 @@ label {
     form {
         padding: 20px;
         width: 80%;
-        height: 480px;
+        height: 80%;
     }
 
     /*PÁGINA DE OBRIGADO*/
